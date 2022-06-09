@@ -32,7 +32,7 @@ steps:
     - --filename=kubernetes/deployment.yaml
     - --image=gcr.io/$PROJECT_ID/$_PROJECT_NAME:$COMMIT_SHA
     - --location=asia-northeast1-a
-    - --cluster==msa-school-cluster-01  
+    - --cluster=msa-school-cluster-01  
 substitutions:
     _PROJECT_NAME: gateway
 options:
